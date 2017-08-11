@@ -1,0 +1,637 @@
+﻿body {
+
+}
+a, img{
+    border:none;
+    outline:none;
+}
+
+
+/*===== Div1 =====*/
+.div1{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    z-index: 10;
+    position: relative;
+    position: fixed;
+    margin-top: -8px;
+}
+
+/*===== div1 navigation bar =====*/
+ul {
+    border-style: none;
+    border-color: #FFFFFF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 105px 0 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: relative;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #464646;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #f2f2f2;
+}
+
+.button {
+    color: #61c0bd;
+    border: none;
+    padding: 10px 26px 10px 26px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "museosans",sans-serif,"myriad Pro";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.button1 {
+    color: #61c0bd;
+    background-color: #ffffff;
+    border:2px solid #61c0bd;
+    border-color: #61c0bd;
+    padding: 10px 28px;
+}
+
+.button2 {
+    color: #464646;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid #ffffff;
+}
+.button3 {
+    color: #464646;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid #ffffff;
+}
+/*===== END div1 navigation bar =====*/
+
+.div1_1{
+    border-style: none;
+    position: absolute;
+    top: 0px;
+    left: 67.5px;
+    z-index: 1;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.div1_2{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    padding-right: 55px;
+}
+/*===== END Div1 =====*/
+
+
+/*===== Div2 =====*/
+.div2{
+     width: 100%;
+     height: 500px; 
+     z-index:0;
+     position: relative;
+}
+                
+.text1 {
+    color: #ffffff;           
+    z-index: 2;            
+    text-align:center;
+    font-family: "museosans",sans-serif,"myriad Pro";
+    font-size: 55px;            
+    text-transform:uppercase;
+    margin-top:-370px;
+}
+
+.image1{
+    margin-top:50px;    
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.text2 {
+    color: #ffffff;           
+    z-index: 2;            
+    text-align:center;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 18px;            
+    margin-top:0px;        
+}
+
+.text3 {
+    color: #ffffff;
+    z-index: 2;
+    text-align: center;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+    margin-top: 0px;
+    line-height:0.1;
+}
+/*===== END Div2 =====*/
+
+
+/*===== Div3 =====*/
+.div3{
+     width: 100%;
+     height: 115px;
+     z-index:0;
+     position: relative;
+     background-color:#f2f2f2;
+}
+
+.text4 {
+    color: #464646;           
+    z-index: 1;            
+    text-align:left;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 18px;            
+    margin-top:0px;    
+    padding-left:65px;    
+}
+
+.text5 {
+    color: #5b6172;
+    z-index: 1;
+    text-align: left;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: 0.1;
+    padding-left:65px;   
+}
+
+span.color61c0bd{
+    color:#61c0bd;
+}
+
+sup{
+    vertical-align:super;
+    font-size:10px;
+}
+
+.button4 {
+    color: #ffffff;
+    background-color: #61c0bd;
+    border-color: #61c0bd;
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    right: 100px;
+    top: 38px;
+}
+/*===== END Div3 =====*/
+
+/*===== Div4 =====*/
+.div4{
+     width: 100%;
+     height: 400px;
+     z-index:0;
+     position: relative;            
+}
+
+.text6 {
+    color: #464646;           
+    z-index: 1;            
+    text-align:center;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 26px;            
+    margin-top:0px;    
+    text-transform:uppercase;  
+}
+
+.div4_1{
+    width: 25%;
+    height: 305px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.div4_1_rotate{
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    padding-top: 15px;
+    padding-bottom:25px;
+}
+
+.text7 {
+    color: #5b6172;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text8 {
+    color: #5b6172;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+}
+
+.div4_2{
+    width: 25%;
+    height: 305px;
+    z-index:0;
+    position: absolute;
+    border-style: none;
+    display:inline-block;
+    position:center;
+    margin-left: 475px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.div4_3{
+    width: 25%;
+    height: 305px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 850px;
+    text-align:center;
+}
+/*===== END Div4 =====*/
+
+/*===== Div5 =====*/
+.div5{
+    width: 100%;
+    height: 450px;
+    border-style: none;
+    z-index:0;
+    background-color:#f2f2f2;
+}
+
+.div5_1{
+    width: 25%;
+    height: 225px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 5px;
+    text-align:center;
+}
+
+.div5_2{
+    width: 25%;
+    height: 225px;
+    z-index:0;
+    position: absolute;
+    border-style: none;
+    display:inline-block;
+    position:center;
+    margin-left: 475px;
+    margin-right: 5px;
+    text-align:center;
+}
+
+.div5_3{
+    width: 25%;
+    height: 225px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 820px;
+    text-align:center;
+}
+
+.text9 {
+    color: #5b6172;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+    text-align:center;
+}
+
+.text10 {
+    color: #5b6172;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 20px;
+    text-align:center;
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    z-index: -1;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 102.5px;
+}
+
+.circle2{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #61c0bd;
+    z-index: 0;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 112.5px;
+    margin-top: 10px;
+}
+
+.rectangle{
+    width:315px;
+    height:170px;
+    background:#ffffff;
+    z-index: -1;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.text11 {
+    color: #61c0bd;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 18px;
+    font-weight:bold;
+    margin-top:105px; 
+}
+
+.text12 {
+    color: #5b6172;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+    text-align: center;
+}
+
+.center{
+    position:absolute;
+    margin:auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+
+.line{
+    border-width: 2px;
+    border-color: #d9dadd;
+    width: 1005px;
+    height: 2px;
+    z-index: 0;
+    position: absolute;
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 5px;
+    margin-top: 260px;
+    text-align: center;
+    border-top-style: solid;
+}
+/*===== END Div5 =====*/
+
+
+/*===== Div6 =====*/
+.div6{
+    width: 100%;
+    height: 220px;
+    border-style: none;
+    z-index:0;
+    position: relative;
+    background-color:#f2f2f2;
+}
+
+.text13 {
+    color: #464646;           
+    z-index: 1;            
+    text-align:center;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 26px;            
+    margin-top:0px;   
+    padding:20px; 
+    text-transform:uppercase;  
+}
+
+.div6_1{
+    width: 140px;
+    height: 120px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top:-20px;
+    text-align:center;
+}
+
+.div6_2{
+    width: 140px;
+    height: 120px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 340px;
+    margin-top:-20px;
+    text-align:center;
+}
+
+.div6_3{
+    width: 140px;
+    height: 120px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 560px;
+    margin-top:-20px;
+    text-align:center;
+}
+
+.div6_4{
+    width: 140px;
+    height: 120px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 780px;
+    margin-top:-20px;
+    text-align:center;
+}
+
+.div6_5{
+    width: 140px;
+    height: 120px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 990px;
+    margin-top:-20px;
+    text-align:center;
+}
+/*===== END Div6 =====*/
+
+/*===== Div7 =====*/
+.div7{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    z-index:0;
+    position: relative;
+}
+
+.div7_1{
+    width: 230px;
+    height: 150px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.div7_2{
+    width: 230px;
+    height: 150px;
+    z-index:0;
+    position: absolute;
+    border-style: none;
+    display:inline-block;
+    position:center;
+    margin-left: 360px;
+    text-align:center;
+}
+
+.div7_3{
+    width: 230px;
+    height: 150px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-left: 620px;
+    text-align:center;
+}
+
+.div7_4{
+    width: 230px;
+    height: 150px;
+    z-index: 0;
+    position: inherit;
+    border-style: none;
+    display: inline-block;
+    margin-left: 880px;
+    text-align:center;
+}
+
+.text14 {
+    color: #61c0bd;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 16px;
+    font-weight:bold;
+    margin-top:0px; 
+}
+
+.line2{
+    border-color: #d9dada;
+    width: 230px;
+    height: 70px;
+    z-index: 0;
+    position: absolute;
+    display: inline-block;
+    margin-left: -118px;
+    margin-top: -10px;
+    text-align: center;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+/*===== END Div7 =====*/
+
+/*===== Div8 =====*/
+.div8{
+    width: 100%;
+    height: 135px;
+    border-style: none;
+    z-index:0;
+    position: relative;
+    background-color:#464646;
+}
+
+.div8_1{
+    height: 33px;
+    width:33px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-top:15px;
+    margin-left: 590px;
+    margin-right: 10px;
+    text-align:center;    
+}
+.div8_2{
+    height: 33px;
+    width:33px;
+    z-index: 0;
+    position: absolute;
+    border-style: none;
+    display: inline-block;
+    margin-top:15px;
+    margin-left: 630px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.line3{
+    border-width: 2px;
+    border-color: #d9dada;
+    width: 1005px;
+    height: 38px;
+    z-index: 0;
+    position: absolute;
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 5px;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-top-style: solid;
+}
+
+.text15 {
+    color: #d9dada;
+    z-index: 1;
+    font-family: "museosans",ssans-serif,"myriad Pro";
+    font-size: 14px;
+}
+/*===== END Div8 =====*/
